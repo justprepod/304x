@@ -53,7 +53,7 @@ void list_free(TListItem **head) {
 			free(ptr->data);
 		free(ptr);
 		ptr = next;
-	}
+	} 
 
 	*head = NULL;
 }
